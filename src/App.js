@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from './sidebar'
 import Main from './Main'
 import './App.css'
-import './detail'
+import './detail.js'
 function App() {
   return (
     <>

@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from './sidebar'
 import Main from './Main'
-import './detail'
 import './App.css'
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
     <>
     <div className='main'>
     <Sidebar />
-     <Main />
-      <Detail />
+      <Main />
     </div>
     </>
   );

@@ -1,7 +1,7 @@
 .detail-list-row{
     display: flex;
     gap: 2.2rem;
-    color: rgb(152, 151, 151);
+    color: rgb(158, 156, 156);
 }
 
 .detail-list-row .cont{
@@ -12,3 +12,4 @@
 .detail-list-row .cont .header-text{
     font-size: 15px;
 }
+

@@ -1,0 +1,27 @@
+.detail-wrapper{
+    width: 83.4%;
+}
+
+.detail-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.detail-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.detail-row .detail-icon{
+    border: 1px solid #e0e0e0;
+    width: 2.2rem;
+    height: 2.2rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.3rem;  
+    box-shadow: 0 4px 8px rgba(211, 210, 210, 0.2); 
+
+}

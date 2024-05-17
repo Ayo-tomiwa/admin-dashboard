@@ -65,6 +65,10 @@ body {
     background-color: rgb(57, 61, 75);
     border-radius: 13px;
     color: rgb(240, 239, 239);
+}
+
+.menu-rows-2 .icon{
+    color: rgb(240, 239, 239);
 
 }
 

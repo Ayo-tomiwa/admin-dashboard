@@ -2,7 +2,7 @@ import React from 'react'
 import './main.css'
 import { IoPersonCircleOutline } from "react-icons/io5"
 import { HiMiniArrowTrendingUp } from "react-icons/hi2"
-import { GrCloudDownload } from "react-icons/gr"
+import { TbArrowUpToArc } from "react-icons/tb"
 import { TbRosetteDiscountCheck } from "react-icons/tb"
 import { MdOutlineCancel } from "react-icons/md"
 import SecondMain from './SecondMain'
@@ -48,7 +48,7 @@ function Main() {
                     <div className='row1'>
                         <h5>Upgrade request</h5>
                         <div className='icon'>
-                        <GrCloudDownload />
+                        <TbArrowUpToArc />
 
                         </div>
                     </div>

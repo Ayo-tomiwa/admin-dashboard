@@ -37,6 +37,7 @@ function DetailList() {
             </div>
         </div>
         <hr />
+        {/* <SecondDetailList/> */}
     </div>
   )
 }

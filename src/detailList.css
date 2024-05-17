@@ -1,3 +1,9 @@
+.detail-list-row{
+    display: flex;
+    gap: 2.2rem;
+    color: rgb(152, 151, 151);
+}
+
 .detail-list-row .cont{
     display: flex;
     gap: 15px;

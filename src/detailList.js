@@ -14,7 +14,29 @@ function DetailList() {
                     <p>Account ID</p>
                 </div>
             </div>
+            <div>
+                <p>Account name</p>
+            </div>
+            <div>
+                <p>Phone number</p>
+            </div>
+            <div>
+                <p>Email address</p>
+            </div>
+            <div>
+                <p>Tier level</p>
+            </div>
+            <div>
+                <p>Date created</p>
+            </div>
+            <div>
+                <p> Status</p>
+            </div>
+            <div>
+                <p>Export info</p>
+            </div>
         </div>
+        <hr />
     </div>
   )
 }

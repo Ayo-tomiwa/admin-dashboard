@@ -1,0 +1,57 @@
+.second-detail-wrapper{
+    width: 100%;
+}
+.second-detail-container{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: rgb(49, 52, 66);
+}
+
+.just-now{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.calender-icon{
+    font-size: 20px;
+    align-items: center;
+    color: rgb(103, 126, 229);
+}
+.kate-image{
+    width: 30px;
+    height: 30px;
+}
+
+.kate-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.kate-div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.progress{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: rgb(103, 126, 229);
+}
+
+.progress span{
+    background-color: rgb(103, 126, 229);
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .export-info{
+    width: 2rem;
+    font-size: 20px;
+  }

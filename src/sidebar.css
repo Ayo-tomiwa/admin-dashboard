@@ -8,8 +8,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 45rem;
     width: 18vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(240, 239, 239);
     padding: 1rem 1.5rem;
 }
@@ -35,7 +36,7 @@
     align-items: center; 
 }
 .home:hover{
-    background-color: rgb(230, 209, 2394);
+    background-color: #e3e3e3;
     border-radius: 6px;
 }
 span{
@@ -91,6 +92,6 @@ span{
     display: flex;
     align-items: center;
 }
-.cont-2{
-    margin-bottom: -17%;
-}
+/* .cont-2{
+    margin-top: 100%;
+} */

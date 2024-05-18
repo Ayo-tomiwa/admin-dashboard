@@ -1,5 +1,6 @@
 import React from 'react'
 import './detailList.css'
+import SecondDetailList from './secondDetailList'
 import { RiCheckboxBlankLine } from "react-icons/ri"
 
 function DetailList() {
@@ -37,7 +38,7 @@ function DetailList() {
             </div>
         </div>
         <hr />
-        {/* <SecondDetailList/> */}
+        <SecondDetailList/>
     </div>
   )
 }

@@ -1,7 +1,36 @@
 .second-detail-wrapper{
     width: 100%;
 }
-.second-detail-container{
+.second-detail-container-1{
+    display: flex;
+    width: 100%;
+    gap: 2.2rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: rgb(49, 52, 66);
+}
+.second-detail-container-2{
+    display: flex;
+    width: 100%;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: rgb(49, 52, 66);
+}
+
+.second-detail-container-3{
+    display: flex;
+    width: 100%;
+    gap: 2.6rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: rgb(49, 52, 66);
+}
+
+.second-detail-container-4{
     display: flex;
     width: 100%;
     gap: 2.5rem;
@@ -70,9 +99,9 @@
 .Andi-div{
     display: flex;
     align-items: center;
-    gap: 0.7rem;
-    width: 100%;
+    gap: 0.5rem;
 }
+
 .kate-div{
     display: flex;
     align-items: center;
@@ -83,7 +112,6 @@
     display: flex;
     align-items: center;
     gap: 0.7rem;
-    width: 100%;
 
 }
 .drew-div{
@@ -109,4 +137,10 @@
   .export-info{
     width: 2rem;
     font-size: 20px;
+  }
+  .detail-row-andi{
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
   }

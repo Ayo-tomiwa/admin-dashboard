@@ -2,6 +2,7 @@ import React from 'react'
 import './secondDetailList.css'
 import { HiMiniCalendarDays } from "react-icons/hi2"
 import { LuDownload } from "react-icons/lu"
+import { MdCheckBox } from "react-icons/md"
 import Image from './kate.jpeg'
 import Image2 from './aliah.jpg'
 import Image3 from './andi.jpeg'
@@ -10,7 +11,7 @@ import Image4 from './drew.jpeg'
 function SecondDetailList() {
   return (
     <div className='second-detail-wrapper'>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-1'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -46,7 +47,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-2'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -82,8 +83,11 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
-            <div className='detail-row'>
+        <div className='second-detail-container-3'>
+            <div className='detail-row-andi'>
+                <div className='andi-checkbox'>
+                <MdCheckBox />
+                </div>
                 <h4>ID1234567890</h4>
             </div>
             <div className='Andi-div'>
@@ -118,7 +122,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-4'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -154,7 +158,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-4'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -190,7 +194,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-1'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -226,7 +230,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-2'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -262,8 +266,9 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
-            <div className='detail-row'>
+        <div className='second-detail-container-3'>
+            <div className='detail-row-andi'>
+                <MdCheckBox />
                 <h4>ID1234567890</h4>
             </div>
             <div className='Andi-div'>
@@ -298,7 +303,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-4'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
@@ -334,7 +339,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
-        <div className='second-detail-container'>
+        <div className='second-detail-container-4'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>

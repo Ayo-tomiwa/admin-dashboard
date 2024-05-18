@@ -56,8 +56,8 @@
 }
 
 .Andi-image{
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
 }
 
 .aliah-image{
@@ -99,25 +99,25 @@
 .Andi-div{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.3rem;
 }
 
 .kate-div{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.7rem;
 }
 
 .aliah-div{
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.6rem;
 
 }
 .drew-div{
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.8rem;
 }
 
 .progress{
@@ -138,9 +138,10 @@
     width: 2rem;
     font-size: 20px;
   }
-  .detail-row-andi{
+  .detail-row-Andi{
     display: flex;
-    gap: 0.3rem;
-    justify-content: center;
+    gap: 0.6rem;
+    justify-content: space-between;
+    /* justify-content: center; */
     align-items: center;
   }

@@ -84,7 +84,7 @@ function SecondDetailList() {
             </div>
         </div>
         <div className='second-detail-container-3'>
-            <div className='detail-row-andi'>
+            <div className='detail-row-Andi'>
                 <div className='andi-checkbox'>
                 <MdCheckBox />
                 </div>
@@ -267,8 +267,10 @@ function SecondDetailList() {
             </div>
         </div>
         <div className='second-detail-container-3'>
-            <div className='detail-row-andi'>
+            <div className='detail-row-Andi'>
+                <div className='andi-checkbox'>
                 <MdCheckBox />
+                </div>
                 <h4>ID1234567890</h4>
             </div>
             <div className='Andi-div'>

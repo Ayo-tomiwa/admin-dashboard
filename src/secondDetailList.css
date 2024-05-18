@@ -4,7 +4,7 @@
 .second-detail-container{
     display: flex;
     width: 100%;
-    gap: 2rem;
+    gap: 2.5rem;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #ccc;
@@ -26,15 +26,67 @@
     height: 30px;
 }
 
-.kate-image img{
+.Andi-image{
+    width: 33px;
+    height: 33px;
+}
+
+.aliah-image{
+    width: 30px;
+    height: 30px;
+}
+
+.drew-image{
+    width: 30px;
+    height: 30px;
+}
+
+.kate-image img{ 
     width: 100%;
     height: 100%;
     border-radius: 40px;
+    object-fit: cover;
+}
+.aliah-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.Andi-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.drew-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
 }
 .kate-div{
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.Andi-div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.aliah-div{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.drew-div{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
 }
 
 .progress{

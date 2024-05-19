@@ -75,9 +75,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='declined-1'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Declined</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -114,9 +114,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='approved'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Approved</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -150,9 +150,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='pending'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Pending</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -186,9 +186,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='declined-2'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Declined</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -258,9 +258,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='declined-1'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Declined</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -297,9 +297,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='approved'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Approved</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -333,9 +333,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='pending'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Pending</p>
             </div>
             <div className='export-info'>
             <LuDownload />
@@ -369,9 +369,9 @@ function SecondDetailList() {
 
                 </div>
             </div>
-            <div className='progress'>
+            <div className='declined-2'>
                 <span></span>
-                <p>In Progress</p>
+                <p>Declined</p>
             </div>
             <div className='export-info'>
             <LuDownload />

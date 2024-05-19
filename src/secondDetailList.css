@@ -125,23 +125,82 @@
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
-    color: rgb(103, 126, 229);
+    color: rgb(46, 85, 255);
+}
+
+.declined-1{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #8f8c8c;
+}
+
+.approved{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: rgb(108, 217, 18);
+}
+
+.pending{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.declined-2{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: rgb(218, 29, 29);
 }
 
 .progress span{
-    background-color: rgb(103, 126, 229);
+    background-color: rgb(46, 85, 255);
     width: 0.5rem;
     height: 0.5rem;
-  }
+}
 
-  .export-info{
+.declined-1 span{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #8f8c8c;
+}
+
+.approved span{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(108, 217, 18);
+}
+
+.declined-2 span{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(218, 29, 29);
+
+}
+
+.pending span{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.export-info{
     width: 2rem;
     font-size: 20px;
-  }
-  .detail-row-Andi{
+}
+.detail-row-Andi{
     display: flex;
     gap: 0.6rem;
     justify-content: space-between;
-    /* justify-content: center; */
     align-items: center;
-  }
+}
+.detail-row-Andi .andi-checkbox{
+    font-size: 18px;
+}

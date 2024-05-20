@@ -8,12 +8,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 45rem;
+    gap: 49rem;
     width: 18vw;
     height: 100%;
     background-color: rgb(240, 239, 239);
     padding: 1rem 1.5rem;
 }
+
 
 .logo{
     width: 60%;

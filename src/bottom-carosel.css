@@ -20,11 +20,13 @@
 .number {
     display: flex;
     align-items: center; /* Center numbers vertically */
-    gap: 0.2rem; /* Adjust gap as needed */
+    /* gap: 0.1rem; */
+    /* Adjust gap as needed */
 }
 
 .number ol {
     margin: 0;
+    font-size: 16px;
     padding: 0.3rem 1rem; 
     cursor: pointer;
     transition: background-color 0.3s;
@@ -40,6 +42,7 @@
 }
 .icon-back, .icon-forward{
     padding: 2px;
-    font-size: 20px;
+    cursor: pointer;
+    font-size: 16px;
     align-items: center;
 }

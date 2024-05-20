@@ -5,6 +5,7 @@
     display: flex;
     width: 100%;
     gap: 2.2rem;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #efefef;
@@ -16,7 +17,7 @@
     gap: 2.5rem;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #efefef;
     color: rgb(49, 52, 66);
 }
 
@@ -26,7 +27,7 @@
     gap: 2.6rem;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #efefef;
     color: rgb(49, 52, 66);
 }
 
@@ -36,7 +37,7 @@
     gap: 2.5rem;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #efefef;
     color: rgb(49, 52, 66);
 }
 
@@ -105,7 +106,7 @@
 .kate-div{
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.4rem;
 }
 
 .aliah-div{
@@ -203,4 +204,5 @@
 }
 .detail-row-Andi .andi-checkbox{
     font-size: 18px;
+    margin-left: -2.5rem;
 }

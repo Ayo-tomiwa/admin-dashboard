@@ -7,6 +7,7 @@ import { TbRosetteDiscountCheck } from "react-icons/tb"
 import { MdOutlineCancel } from "react-icons/md"
 import SecondMain from './SecondMain'
 import Detail from './detail'
+import BottomCarousel from './bottom-carosel'
 
 
 function Main() {
@@ -113,6 +114,7 @@ function Main() {
             </div>
             <SecondMain />
             <Detail />
+            <BottomCarousel/>
         </div>
 
         

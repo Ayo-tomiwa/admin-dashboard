@@ -91,7 +91,11 @@ span{
     align-items: center;
 }
 
-@media only screen and (min-width:600px) {
-    
-    
+@media only screen and (min-width:1200px) {
+
+    .Side{
+        width: 17vw;
+        height: 100%;
+        
+    }
 }

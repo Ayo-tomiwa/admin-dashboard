@@ -175,3 +175,12 @@ body {
     align-items: center;
     gap: 0.5rem;
 }
+
+@media only screen and (min-width: 1200px) {
+
+    .main-cont{
+        width: 95vw;
+        height: 100%;
+        overflow-x: hidden;
+    }
+}

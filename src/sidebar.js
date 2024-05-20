@@ -7,17 +7,17 @@ import { TiCalculator } from "react-icons/ti"
 import { MdNotificationsNone } from "react-icons/md"
 import { CiSettings } from "react-icons/ci"
 import { RiExpandUpDownLine } from "react-icons/ri"
-import { RxHamburgerMenu } from "react-icons/rx";
+// import { RxHamburgerMenu } from "react-icons/rx";
 import Profile from '../src/profile2.jpg'
 
 function Sidebar() {
 
   return (
     <div className='Side'>
-      <RxHamburgerMenu />
+      {/* <RxHamburgerMenu /> */}
       <div className='cont-1'>
         <div className='logo'>
-          <img src={Logo} />
+          <img src={Logo}  alt='logo'/>
         </div>
         <div className='menu'>
           <div className='home'>
@@ -51,7 +51,7 @@ function Sidebar() {
 
           <div className='profile'>
             <div className='image'>
-            <img src={Profile} />
+            <img src={Profile} alt='profile'/>
             </div>
             <div className='text'>
               <h5>Victor Emere</h5>

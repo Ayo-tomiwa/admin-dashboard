@@ -7,12 +7,14 @@ import { TiCalculator } from "react-icons/ti"
 import { MdNotificationsNone } from "react-icons/md"
 import { CiSettings } from "react-icons/ci"
 import { RiExpandUpDownLine } from "react-icons/ri"
+import { RxHamburgerMenu } from "react-icons/rx";
 import Profile from '../src/profile2.jpg'
 
 function Sidebar() {
 
   return (
     <div className='Side'>
+      <RxHamburgerMenu />
       <div className='cont-1'>
         <div className='logo'>
           <img src={Logo} />

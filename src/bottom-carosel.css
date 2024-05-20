@@ -25,16 +25,21 @@
 
 .number ol {
     margin: 0;
-    padding: 0.3rem 1rem; /* Add padding for clickable area */
+    padding: 0.3rem 1rem; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .number ol:hover {
     background-color: #f0f0f0; 
-    border-radius: 5px; /* Rounded corners for hover effect */
+    border-radius: 5px; 
 }
 
 .number{
     display: flex;
+}
+.icon-back, .icon-forward{
+    padding: 2px;
+    font-size: 20px;
+    align-items: center;
 }

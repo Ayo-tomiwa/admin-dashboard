@@ -7,7 +7,7 @@ function BottomCarousel() {
   return (
     <div className='bottom-carousel'>
         <div className='carousel'>
-            <div className='icon'>
+            <div className='icon-back'>
             <MdOutlineArrowBackIosNew />
             </div>
            <div className='number'>
@@ -17,7 +17,7 @@ function BottomCarousel() {
                <ol>4</ol>
                <ol>5</ol>
            </div>
-            <div className='icon'>
+            <div className='icon-forward'>
            <MdOutlineArrowForwardIos />
             </div>
         </div>

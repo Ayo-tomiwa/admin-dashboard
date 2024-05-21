@@ -148,4 +148,11 @@
       transform: translateX(0);
     }
   }
+
+  @media screen and (max-width: 981px), (max-width: 768px) {
+    .Side{
+      width: 30%;
+      height: 100%;
+    }   
+  }
   

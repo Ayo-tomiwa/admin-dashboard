@@ -64,14 +64,14 @@
     
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 540px), (max-width: 1454px), (max-width: 1476px), (max-width: 1540px) {
     .bottom-carousel{
         width: 60%;
     }
     
 }
 
-@media screen and (max-width: 487),( max-width: 414px), (max-width:430px), (max-width: 344px), (max-width: 1454px){
+@media screen and (max-width: 487),( max-width: 414px), (max-width:430px), (max-width: 344px){
     .bottom-carousel{
         margin-right: 0 auto;
         width: 80%;

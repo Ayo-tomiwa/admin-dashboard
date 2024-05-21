@@ -4,7 +4,7 @@ import Logo from '../src/byte.png'
 import { IoMdHome } from "react-icons/io"
 import { IoPersonSharp } from "react-icons/io5"
 import { TiCalculator } from "react-icons/ti"
-import { MdNotificationsNone, MdPadding } from "react-icons/md"
+import { MdNotificationsNone } from "react-icons/md"
 import { CiSettings } from "react-icons/ci"
 import { RiExpandUpDownLine } from "react-icons/ri"
 import { RxHamburgerMenu } from "react-icons/rx";

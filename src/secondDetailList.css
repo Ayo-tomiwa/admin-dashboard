@@ -207,7 +207,7 @@
     margin-left: -2.5rem;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px), (max-width: 1454px) {
     .second-detail-container-1,
     .second-detail-container-2,
     .second-detail-container-3,

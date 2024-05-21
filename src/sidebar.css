@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30rem;
-    width: 19vw;
+    gap: 25rem;
+    width: 15vw;
     height: 100%;
     background-color: rgb(240, 239, 239);
     padding: 1rem 1.5rem;
@@ -82,7 +82,6 @@
     color: rgb(99, 95, 95);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    /* margin-top: 10px; */
   }
   
   .image {

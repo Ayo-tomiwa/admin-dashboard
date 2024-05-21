@@ -4,17 +4,18 @@ import Logo from '../src/byte.png'
 import { IoMdHome } from "react-icons/io"
 import { IoPersonSharp } from "react-icons/io5"
 import { TiCalculator } from "react-icons/ti"
-import { MdNotificationsNone } from "react-icons/md"
+import { MdNotificationsNone, MdPadding } from "react-icons/md"
 import { CiSettings } from "react-icons/ci"
 import { RiExpandUpDownLine } from "react-icons/ri"
-// import { RxHamburgerMenu } from "react-icons/rx";
+import { RxHamburgerMenu } from "react-icons/rx";
 import Profile from '../src/profile2.jpg'
 
 function Sidebar() {
 
   return (
+    <div className='hamburger'>
+      <RxHamburgerMenu size={30}/>
     <div className='Side'>
-      {/* <RxHamburgerMenu /> */}
       <div className='cont-1'>
         <div className='logo'>
           <img src={Logo}  alt='logo'/>
@@ -63,7 +64,11 @@ function Sidebar() {
         </div>
 
       </div>
+      
     </div>
+    </div>
+
+     
   )
 }
 

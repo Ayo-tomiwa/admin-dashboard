@@ -26,3 +26,17 @@
     box-shadow: 0 4px 8px rgba(211, 210, 210, 0.2); 
 
 }
+
+@media screen and (max-width: 344px){
+    .detail-row{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        gap: 25px;
+    }
+    .detail-wrapper{
+        width: 100%;
+    }
+
+}

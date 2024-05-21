@@ -8,18 +8,18 @@
     display: flex;
     width: 100%;
     display: flex;
-    justify-content: flex-end; /* Align the carousel to the right */
-    width: 100%; /* Make sure it takes the full width */
+    justify-content: flex-end; 
+    width: 100%; 
 }
 
 .carousel {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center;
 }
 
 .number {
     display: flex;
-    align-items: center; /* Center numbers vertically */
+    align-items: center; 
     /* gap: 0.1rem; */
     /* Adjust gap as needed */
 }
@@ -45,4 +45,45 @@
     cursor: pointer;
     font-size: 16px;
     align-items: center;
+}
+@media screen and (max-width: 1400px) {
+    .bottom-carousel{
+        display: flex;
+        margin: auto;
+        width: 25%;
+    } 
+}
+
+@media screen and (max-width: 511px) {
+    .bottom-carousel{
+        display: flex;
+        margin-right: auto;
+        width: 40%;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .bottom-carousel{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 487),( max-width: 414px), (max-width:430px), (max-width: 344px) {
+    .bottom-carousel{
+        margin-right: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bottom-carousel{
+        margin-right: auto;
+        width:90%;
+        gap: 0.2px !important;
+        padding: 0.2px;
+    }
+    
 }

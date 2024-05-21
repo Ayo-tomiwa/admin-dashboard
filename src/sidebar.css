@@ -26,6 +26,10 @@
     object-fit: cover;
 }
 
+.Side .hamburger{
+    display: none;
+}
+
 .home{
     display: flex;
     color: rgb(99, 95, 95);
@@ -86,16 +90,26 @@ span{
     flex-grow: 1; 
 }
 
+.hamburger{
+    margin: 20px;
+}
+
 .profile-icon {
     display: flex;
     align-items: center;
 }
 
-@media only screen and (min-width:1200px) {
-
+@media screen and (max-width:1440px),(max-width: 1456px) {
     .Side{
-        width: 17vw;
-        height: 100%;
-        
+        visibility: hidden;
     }
+
+    .Side .hamburger{
+        visibility:visible !important;
+    }
+
+    .hamburger{
+        padding: 20px;
+    }
+   
 }

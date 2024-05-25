@@ -3,6 +3,12 @@
     /* height: 50%; */
 }
 
+.detail-container{
+    width: 95%;
+    padding: 10px 0;
+
+}
+
 .detail-row{
     display: flex;
     flex-direction: row;

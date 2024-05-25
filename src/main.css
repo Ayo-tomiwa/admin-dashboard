@@ -215,8 +215,63 @@ body {
     .menu-rows-7,
     .menu-rows-8{
         width: 250px;
+    
+    }
 
 
+@media screen and (max-width: 328px) {
+    .main-cont{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .main-text{
+        width: 100%;
+    }
+
+    .menu-rows,
+    .menu-rows-2,
+    .menu-rows-3,
+    .menu-rows-4,
+    .menu-rows-5,
+    .menu-rows-6,
+    .menu-rows-7,
+    .menu-rows-8{
+        width: 250px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 318px) {
+    .main-cont{
+        width: 100%;
+        padding: 25px;
+    }
+    .main-text{
+        width: 220px;
     }
     
 }
+
+@media screen and (max-width: 316px) {
+    .main-cont{
+        width: 100%;
+        padding: 30px;
+    }
+    .menu-rows,
+    .menu-rows-2,
+    .menu-rows-3,
+    .menu-rows-4,
+    .menu-rows-5,
+    .menu-rows-6,
+    .menu-rows-7,
+    .menu-rows-8{
+        width: 250px;
+    }
+    
+}
+
+}
+

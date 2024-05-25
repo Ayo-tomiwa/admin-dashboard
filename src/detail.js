@@ -8,21 +8,23 @@ import { HiOutlineBarsArrowDown } from "react-icons/hi2"
 function Detail() {
   return (
     <div className='detail-wrapper'>
-      <div className='detail-row'>
-          <div className='detail-text'>
-              <h3>Recents</h3>
-          </div>
-          <div className='detail-icons'>
-              <div className='detail-icon'>
-              <FiPlus />
-              </div>
-              <div className='detail-icon'>
-              <MdFilterListAlt />
-              </div>
-              <div className='detail-icon'>
-              <HiOutlineBarsArrowDown />
-              </div>
-          </div>
+        <div className='detail-container'>
+        <div className='detail-row'>
+            <div className='detail-text'>
+                <h3>Recents</h3>
+            </div>
+            <div className='detail-icons'>
+                <div className='detail-icon'>
+                <FiPlus />
+                </div>
+                <div className='detail-icon'>
+                <MdFilterListAlt />
+                </div>
+                <div className='detail-icon'>
+                <HiOutlineBarsArrowDown />
+                </div>
+            </div>
+        </div>
       </div>
       
       <DetailList />

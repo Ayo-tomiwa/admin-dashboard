@@ -38,7 +38,7 @@ function Sidebar() {
               <h5>Home</h5>
             </div>
             <div className="home">
-              <IoPersonSharp size={20} />
+              <IoPersonSharp size={20} className='customer-icon' />
               <h5>Customers</h5>
               <span>37m+</span>
             </div>

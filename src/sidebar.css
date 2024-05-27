@@ -129,7 +129,7 @@ span {
 }
 
 /* media query */
-@media screen and (max-width: 1309px) {
+@media screen and (max-width: 1309px), (max-width: 1320px),(max-width:1330px), (max-width:1350px), (max-width: 1440px) {
   .Side{
     width: 85%;
     padding: 10px;

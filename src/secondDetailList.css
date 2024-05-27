@@ -235,6 +235,8 @@
     }
 } 
 
+
+
 @media screen and (max-width: 768px) {
 
     .second-detail-container-1,
@@ -262,6 +264,13 @@
     .second-detail-container-4{
         width: 100%;
         padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .responsiveness-row{
+        display: flex;  
     }
     
 }

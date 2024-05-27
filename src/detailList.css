@@ -19,7 +19,9 @@
 
 @media screen and (max-width: 1440px) {
     .detail-list-row {
-        display: none;
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
     }
     
 }

@@ -61,11 +61,7 @@
         width: 100%;
         font-size: 16px;
         padding: 0;
-        /* margin: ; */
         gap: 0.9px !important;
-    }
-    .container p{
-        border-right: 1px solid #1a1a1a;
     }
 }
 

@@ -3,7 +3,7 @@
 }
 .second-detail-container-1{
     display: flex;
-    width: 90%;
+    width: 94%;
     gap: 2.2rem;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,7 +13,8 @@
 }
 .second-detail-container-2{
     display: flex;
-    width: 90%;
+    width: 94%;
+
 
     gap: 2.5rem;
     justify-content: center;
@@ -24,7 +25,8 @@
 
 .second-detail-container-3{
     display: flex;
-    width: 90%;
+    width: 94%;
+
     gap: 2.6rem;
     justify-content: center;
     align-items: center;
@@ -34,8 +36,7 @@
 
 .second-detail-container-4{
     display: flex;
-    width: 90%;
-
+    width: 94%;
     gap: 2.5rem;
     justify-content: center;
     align-items: center;

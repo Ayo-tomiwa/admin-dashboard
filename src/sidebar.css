@@ -133,11 +133,11 @@ span {
 /* media query */
 @media screen and (max-width: 1309px), (max-width: 1320px),(max-width:1330px), (max-width:1350px), (max-width: 1440px) {
   .Side{
-    width: 85%;
+    width: 100%;
     padding: 10px;
     margin: 8px;
-    height: 98%;
-    font-size: 17px;
+    height: 98.5%;
+    font-size: 16px;
     margin: 0;
     justify-content: space-between;
 
@@ -242,7 +242,7 @@ span {
 }
 @media screen and (max-width: 380px) {
   .Side{
-    width: 58%;
+    width: 53%;
   }
   
 }

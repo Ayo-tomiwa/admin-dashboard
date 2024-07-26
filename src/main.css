@@ -176,13 +176,12 @@ body {
     gap: 0.5rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px), (max-width: 885px) {
     .main-cont{
-        width: 100vw;
+        width: 100%;
         height: 100%;
-        overflow-x: hidden;
         font-size: 15px;
-        
+        margin-top: 3rem;
     }
 }
 @media screen and (max-width: 636px) {
@@ -201,6 +200,7 @@ body {
 
 @media screen and (max-width: 540px) {
     .main-cont{
+        width: 100%;
         font-size: 15px;
     }
 }

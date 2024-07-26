@@ -36,7 +36,6 @@ function SecondDetailList() {
                 </div>
                 <div className='just-now-text'>
                 <p>Just now</p>
-
                 </div>
             </div>
             <div className='progress'>
@@ -47,6 +46,7 @@ function SecondDetailList() {
             <LuDownload />
             </div>
         </div>
+
         <div className='second-detail-container-2'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
@@ -71,8 +71,7 @@ function SecondDetailList() {
                 <HiMiniCalendarDays />
                 </div>
                 <div className='just-now-text'>
-                <p>Just now</p>
-
+                    <p>Just now</p>
                 </div>
             </div>
             <div className='declined-1'>
@@ -80,19 +79,20 @@ function SecondDetailList() {
                 <p>Declined</p>
             </div>
             <div className='export-info'>
-            <LuDownload />
+                <LuDownload />
             </div>
         </div>
+
         <div className='second-detail-container-3'>
             <div className='detail-row-Andi'>
                 <div className='andi-checkbox'>
-                <MdCheckBox />
+                    <MdCheckBox />
                 </div>
                 <h4>ID1234567890</h4>
             </div>
             <div className='Andi-div'>
                 <div className='Andi-image'>
-                <img src={Image3} alt='Andi'/>
+                    <img src={Image3} alt='Andi'/>
                 </div>
                 <h4>Andi Lane</h4>
             </div>
@@ -107,11 +107,10 @@ function SecondDetailList() {
             </div>
             <div className='just-now'>
                 <div className='calender-icon'>
-                <HiMiniCalendarDays />
+                    <HiMiniCalendarDays />
                 </div>
                 <div className='just-now-text'>
-                <p>Just now</p>
-
+                    <p>Just now</p>
                 </div>
             </div>
             <div className='approved'>
@@ -119,16 +118,17 @@ function SecondDetailList() {
                 <p>Approved</p>
             </div>
             <div className='export-info'>
-            <LuDownload />
+                <LuDownload />
             </div>
         </div>
+
         <div className='second-detail-container-4'>
             <div className='detail-row'>
                 <h4>ID1234567890</h4>
             </div>
             <div className='drew-div'>
                 <div className='drew-image'>
-                <img src={Image4} alt='drew'/>
+                    <img src={Image4} alt='drew'/>
                 </div>
                 <h4>Drew Cano</h4>
             </div>

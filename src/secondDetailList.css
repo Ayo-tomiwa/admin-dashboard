@@ -4,16 +4,12 @@
 
 .second-detail-container-1{
     display: flex;
-    width: 97%;
-    gap: 2.41rem;
-    border-bottom: 1px solid #efefef;
-    align-items: center;
-    margin: 0 auto;
-    /* gap: 2.6rem;
+    width: 92%;
+    gap: 2.22rem;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid #efefef;
     color: rgb(49, 52, 66);
-    padding: 0.2rem 0;  */
 }
 
 .second-detail-container-2{
@@ -29,7 +25,7 @@
 .second-detail-container-3{
     display: flex;
     width: 92%;
-    gap: 2.6rem;
+    gap: 2.7rem;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #efefef;

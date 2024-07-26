@@ -5,10 +5,10 @@
 }
 .second-detail-container-1{
     display: flex;
-    width: 92%;
+    width: 100%;
     gap: 2.2rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
     align-items: center;
     border-bottom: 1px solid #efefef;
     color: rgb(49, 52, 66);

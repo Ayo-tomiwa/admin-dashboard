@@ -1,79 +1,76 @@
-.detail-list-wrapper hr{
-    width: 92%;
+.detail-list-wrapper hr {
+    width: 100%;
 }
 
-.detail-list-row{
-    display: flex;
-    gap: 2.7rem;
+.detail-list-row {
+    display: grid;
+    grid-template-columns: repeat(8, auto); /* 8 rows with automatic height */
+    /* gap: 0.2rem; */
     color: rgb(158, 156, 156);
 }
 
-.detail-list-row .container1{
+.detail-list-row .container1 {
     display: flex;
     gap: 15px;
 }
 
-.detail-list-row .container1 .header-text{
+.detail-list-row .container1 .header-text {
     font-size: 15px;
 }
 
 @media screen and (max-width: 1440px) {
     .detail-list-row {
-        display: flex;
-        flex-direction: row;
+        grid-template-columns: repeat(8, auto); /* Ensure 8 rows layout */
         font-size: 18px;
         width: 100%;
         padding: 0;
         margin: 0;
     }
-    .detail-list-wrapper hr{
+    .detail-list-wrapper hr {
         width: 100%;
     }
-    
 }
 
 @media screen and (max-width: 1361px) {
-    .detail-list-row{
+    .detail-list-row {
         width: 100%;
         font-size: 17px;
         align-items: center;
-        /* text-align: center; */
-
     }
 }
 
 @media screen and (max-width: 1305px) {
-    .detail-list-row{
+    .detail-list-row {
         width: 100%;
         font-size: 16px;
     }
-    
 }
+
 @media screen and (max-width: 1248px) {
-    .detail-list-row{
+    .detail-list-row {
         width: 100%;
         font-size: 15px;
-    }  
+    }
 }
-@media screen and(max-width: 1192px) {
-    .detail-list-row{
+
+@media screen and (max-width: 1192px) {
+    .detail-list-row {
         width: 100%;
         font-size: 16px;
         padding: 0;
-        gap: 0.9px !important;
+        gap: 0.9rem !important;
     }
 }
 
 @media screen and (max-width: 1064px) {
-    .detail-list-row{
+    .detail-list-row {
         width: 100%;
         gap: 1.5rem !important;
     }
-    
 }
 
 @media screen and (max-width: 860px) {
-    .detail-list-row{
+    .detail-list-row {
         width: 100%;
         font-size: 14px;
         align-items: center;
@@ -82,11 +79,7 @@
         gap: 0.5rem;
     }
 
-    .detail-list-wrapper hr{
+    .detail-list-wrapper hr {
         width: 100%;
     }
-    
 }
-
-
-

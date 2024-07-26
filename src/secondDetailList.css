@@ -52,46 +52,20 @@
     align-items: center;
     color: rgb(103, 126, 229);
 }
-.kate-image{
+
+.kate-image,
+.Andi-image,
+.aliah-image,
+.drew-image {
     width: 30px;
     height: 30px;
 }
 
-.Andi-image{
-    width: 30px;
-    height: 30px;
-}
 
-.aliah-image{
-    width: 30px;
-    height: 30px;
-}
-
-.drew-image{
-    width: 30px;
-    height: 30px;
-}
-
-.kate-image img{ 
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    object-fit: cover;
-}
-.aliah-image img{
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    object-fit: cover;
-}
-.Andi-image img{
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    object-fit: cover;
-}
-
-.drew-image img{
+.kate-image img,
+.aliah-image img,
+.Andi-image img,
+.drew-image img {
     width: 100%;
     height: 100%;
     border-radius: 40px;
@@ -122,75 +96,64 @@
     gap: 0.8rem;
 }
 
-.progress{
+.progress,
+.declined-1,
+.approved,
+.pending,
+.declined-2 {
     display: flex;
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
+}
+
+.progress {
     color: rgb(46, 85, 255);
 }
 
-.declined-1{
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+.declined-1 {
     color: #8f8c8c;
 }
 
-.approved{
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+.approved {
     color: rgb(108, 217, 18);
 }
 
-.pending{
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+.pending {
     color: rgba(0, 0, 0, 0.89);
 }
 
-.declined-2{
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+.declined-2 {
     color: rgb(218, 29, 29);
 }
 
-.progress span{
-    background-color: rgb(46, 85, 255);
+.progress span,
+.declined-1 span,
+.approved span,
+.pending span,
+.declined-2 span {
     width: 0.5rem;
     height: 0.5rem;
 }
 
-.declined-1 span{
-    width: 0.5rem;
-    height: 0.5rem;
+.progress span {
+    background-color: rgb(46, 85, 255);
+}
+
+.declined-1 span {
     background-color: #8f8c8c;
 }
 
-.approved span{
-    width: 0.5rem;
-    height: 0.5rem;
+.approved span {
     background-color: rgb(108, 217, 18);
 }
 
-.declined-2 span{
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: rgb(218, 29, 29);
-
+.pending span {
+    background-color: rgba(0, 0, 0, 0.89);
 }
 
-.pending span{
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.89);
+.declined-2 span {
+    background-color: rgb(218, 29, 29);
 }
 
 .export-info{
@@ -234,7 +197,7 @@
 .second-detail-container-3,
 .second-detail-container-4{
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }
 }
 

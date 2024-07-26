@@ -1,5 +1,6 @@
 import React from 'react'
 import './secondDetailList.css'
+import './detailList.css'
 import { HiMiniCalendarDays } from "react-icons/hi2"
 import { LuDownload } from "react-icons/lu"
 import { MdCheckBox } from "react-icons/md"

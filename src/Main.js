@@ -20,6 +20,7 @@ function Main() {
             </div>
               <div className='text'>
                     <h3>Quick actions</h3>
+                    
                 </div>
             <div className='menu1'>
                 <div className='menu-text'>

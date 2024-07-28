@@ -19,8 +19,7 @@ function Main() {
                 <h5>You have<span className='span'>6 pending</span>requests since your last login</h5>
             </div>
               <div className='text'>
-                    <h3>Quick actions</h3>
-                    
+                    <h3>Quick actions</h3>   
                 </div>
             <div className='menu1'>
                 <div className='menu-text'>
